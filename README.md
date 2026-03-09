@@ -5,20 +5,6 @@
 사용자가 차량 정보를 입력하면 머신러닝 모델을 활용하여
 중고차 가격을 예측하는 웹 서비스 개발
 
-## 사용 기술
-
-Frontend
-- React
-
-Backend
-- FastAPI
-- REST API
-
-Machine Learning
-- RandomForest
-- XGBoost
-- Deep Neural Network
-
 ## 주요 기능
 
 - 차량 정보 입력
@@ -56,18 +42,6 @@ Machine Learning
 
 - 예측 중고차 가격
 
-3. 프로젝트 설계
-  # 시스템 설계 (Design)
-
-## 시스템 구조
-
-Frontend (React)
-↓
-Backend (RestAPI)
-↓
-Machine Learning Model
-(RandomForest / XGBoost / DNN)
-
 ## 프론트엔드
 
 역할
@@ -94,57 +68,6 @@ Machine Learning Model
 
 차량 데이터(연식, 주행거리 등)를 입력받아
 중고차 가격을 예측
-4. 테스트 시나리오
-# 테스트 시나리오
-
-## 테스트 1
-
-입력
-
-모델 : K5  
-연식 : 2020  
-주행거리 : 50000km  
-
-예상 결과
-
-1500만원 ~ 2000만원 범위 가격 출력
-
----
-
-## 테스트 2
-
-입력
-
-모델 : 아반떼  
-연식 : 2018  
-주행거리 : 70000km  
-
-예상 결과
-
-1000만원 ~ 1400만원 범위 가격 출력
-5. 최종 보고서
-# 프로젝트 보고서
-
-## 프로젝트 설명
-
-본 프로젝트는 머신러닝 기반 중고차 가격 예측 웹 서비스를
-개발하는 것을 목표로 한다.
-
-사용자가 차량 정보를 입력하면
-머신러닝 모델을 활용하여 예상 가격을 제공한다.
-
-## 사용 기술
-
-Frontend
-- React
-
-Backend
-- REST API
-
-Machine Learning
-- RandomForest
-- XGBoost
-- DNN
 
 ## 기대 효과
 
